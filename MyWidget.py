@@ -154,17 +154,13 @@ class mywindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 break
         if flag<100:
             self.iterations.setText(str(flag))
-        """printstr = "Xs:  "+str(round(self.X0s,3)) + "m\n" + "Ys:  "+str(round(self.Y0s,3))+"m\n" +\
-                   "Zs:  "+str(round(self.Z0s,3))+"m\n" + "f:   "+str(round(self.f0,3))+"\n" + \
-                   "w:   "+str(round(self.w0,3))+"\n" + "k:   "+str(round(self.k0,3))+"\n" """
-        
-        self.iterations.setText(str(flag))
-        self.textBrowser.setText(str(round(self.X0s,3)))
-        self.textBrowser_2.setText(str(round(self.Y0s,3)))
-        self.textBrowser_3.setText(str(round(self.Z0s,3)))
-        self.textBrowser_4.setText(str(round(self.f0,3)))
-        self.textBrowser_5.setText(str(round(self.w0,3)))
-        self.textBrowser_6.setText(str(round(self.k0,3)))
+            self.iterations.setText(str(flag))
+            self.textBrowser.setText(str(round(self.X0s,3)))
+            self.textBrowser_2.setText(str(round(self.Y0s,3)))
+            self.textBrowser_3.setText(str(round(self.Z0s,3)))
+            self.textBrowser_4.setText(str(round(self.f0,3)))
+            self.textBrowser_5.setText(str(round(self.w0,3)))
+            self.textBrowser_6.setText(str(round(self.k0,3)))
 
 if __name__ == '__main__': 
     
