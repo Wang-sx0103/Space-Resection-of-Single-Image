@@ -25,7 +25,7 @@ for i in range(len(xFrame)):
     bFlexible.append(b)
 aMean = sum(aTranslation)/len(aTranslation)
 bMean = sum(bFlexible)/len(bFlexible)
-for j in range(8):
+for j in range(9):
     x = xControl[j]/bMean - aMean
     y = yControl[j]/bMean - aMean
     xF.append(round(x,3))
