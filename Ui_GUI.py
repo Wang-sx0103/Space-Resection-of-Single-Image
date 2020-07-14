@@ -124,7 +124,7 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.dataBrowser.sizePolicy().hasHeightForWidth())
         self.dataBrowser.setSizePolicy(sizePolicy)
         self.dataBrowser.setMinimumSize(QtCore.QSize(200, 0))
-        self.dataBrowser.setMaximumSize(QtCore.QSize(16777215, 400))
+        self.dataBrowser.setMaximumSize(QtCore.QSize(16777215, 800))
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setPointSize(20)
@@ -283,6 +283,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setPointSize(18)
+        font.setItalic(True)
         self.label_11.setFont(font)
         self.label_11.setObjectName("label_11")
         self.gridLayout.addWidget(self.label_11, 5, 4, 1, 2)
@@ -291,6 +292,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setPointSize(18)
+        font.setItalic(True)
         self.label_12.setFont(font)
         self.label_12.setObjectName("label_12")
         self.gridLayout.addWidget(self.label_12, 6, 4, 1, 2)
@@ -299,6 +301,7 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setPointSize(18)
+        font.setItalic(True)
         self.label_13.setFont(font)
         self.label_13.setObjectName("label_13")
         self.gridLayout.addWidget(self.label_13, 7, 4, 1, 2)
@@ -430,7 +433,7 @@ class Ui_MainWindow(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Times New Roman\',\'Times New Roman\'; font-size:20pt; font-weight:600; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">测绘工程201721020327</p></body></html>"))
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">测绘工程201721020327王尚兴</p></body></html>"))
         self.label_26.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">rad</p></body></html>"))
         self.calButton.setText(_translate("MainWindow", "计算"))
         self.label_19.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">rad</p></body></html>"))
@@ -449,7 +452,7 @@ class Ui_MainWindow(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Times New Roman\',\'Times New Roman\'; font-size:20pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Microsoft YaHei\'; font-size:16pt;\">0</span></p></body></html>"))
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">0.004</p></body></html>"))
         self.label_6.setText(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -459,13 +462,13 @@ class Ui_MainWindow(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Times New Roman\',\'Times New Roman\'; font-size:20pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Microsoft YaHei\'; font-size:16pt;\">0</span></p></body></html>"))
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Microsoft YaHei\'; font-size:16pt;\">0.008</span></p></body></html>"))
         self.label_2.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">y</span><span style=\" font-size:18pt; vertical-align:sub;\">0</span></p></body></html>"))
         self.fd.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Times New Roman\',\'Times New Roman\'; font-size:20pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Microsoft YaHei\'; font-size:16pt;\">153.24</span></p></body></html>"))
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Microsoft YaHei\'; font-size:16pt;\">152.720</span></p></body></html>"))
         self.label_7.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt;\">f</span></p></body></html>"))
         self.finit.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"

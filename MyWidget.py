@@ -14,7 +14,6 @@ class mywindow(QtWidgets.QMainWindow, Ui_MainWindow):
         super(mywindow, self).__init__()  #super(mywindow,self) 首先找到 mywindowd的父类(也就是类 QtWidgets.QMainWindow, Ui_MainWindow)
                                           #然后把类 mywindow 的对象转换为父类的对象 
         self.setupUi(self)
-        #self.dataBrowser.setFont(QtGui.QFont("Microsoft YaHei"))
         self.setWindowTitle("单像空间后方交会")
         self.data = []
         self.pointNum = 0                                             #控制点数量
