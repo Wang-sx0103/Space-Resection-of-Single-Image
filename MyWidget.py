@@ -2,9 +2,8 @@ import sys
 import os
 import numpy as np
 from PyQt5 import QtCore, QtGui, QtWidgets
-#from PyQt5.QtCore import *
 from PyQt5.QtWidgets import QApplication,QMainWindow,QFileDialog
-#from PyQt5.QtGui import *
+
 
 from GUI import Ui_MainWindow
 
@@ -34,9 +33,7 @@ class mywindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.f0 = eval(self.finit.toPlainText())                      #外方位角元素的初始值
         self.w0 = eval(self.winit.toPlainText())
         self.k0 = eval(self.kinit.toPlainText())
-        #print(x0)
         for i in range(len(self.data)):
-            #print(self.data[i].split(",")[3])
             self.x[i] = float(self.data[i].split(",")[0])
             self.y[i] = float(self.data[i].split(",")[1])
             self.X[i] = float(self.data[i].split(",")[2])
